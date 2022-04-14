@@ -17,3 +17,7 @@ On line 9 enter your PodPoint username over the placeholder. On line 12 enter yo
 #OctopusGo.py
 
 On line 9 enter your PodPoint username over the placeholder. On line 12 enter your PodPoint password over the placeholder. When the script runs it will set your PodPoint for all days to the lower cost 7.5p overnight OctopusGo hours of 00:30:00 to 04:30:00.
+
+#ChargeToPercentage_Overnight.py
+
+On line 14 enter your PodPoint username over the placeholder. On line 17 enter your PodPoint password over the placeholder. On line 20 replace the 45 with the usable battery size of your EV in kWh. When the script runs it will ask for your EV's current charge percentage, the percentage that you wish to charge to and then set the timer to charge your EV from 00:30 to that percentage. It is recommended to run LockUnlockCharger.py afterwards if you wish to clear the timer and lock your PodPoint.
